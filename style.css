@@ -1,0 +1,19 @@
+body{
+	font-size: 65%;
+	background-image: url("https://www.orbitmedia.com/resources/assets/images/bg-texture.jpg")
+}
+.rotateimg {
+	-webkit-animation: rotate 5s linear infinite 0s;
+	-moz-animation: rotateup 5s linear infinite 0s;
+	  -o-animation: rotate 5s linear infinite 0s;
+	  -ms-animation: rotate 5s linear infinite 0s;
+	  animation: rotate 5s linear infinite 0s;
+}
+img#image{
+	position:absolute;
+	top:0;
+	bottom:0;
+	right:0;
+	left:0;
+	margin: auto;
+}
